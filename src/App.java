@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        MetodoOrdenamiento ordenar = new MetodoOrdenamiento();
+        int[] arreglo = {48, 2, 8, 27, 12};
+        int[] arregloInsercion = ordenar.sortInsercion(arreglo);
+        ordenar.printInsercion(arregloInsercion);
+
     }
 }
