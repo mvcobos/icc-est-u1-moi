@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class MetodoOrdenamiento {
     public int[] sortInsercion(int[] arreglo, boolean logs){
-        if(logs == true){
+        if(logs){
             for(int i = 1; i < arreglo.length; i++){
                 System.out.println("Iteracion numero " + i);
                 int aux = arreglo[i];
